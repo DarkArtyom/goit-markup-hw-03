@@ -17,7 +17,6 @@ ul, ol {
     margin: 0;
 }
 
-
 :root {
     --title-text-color: #212121;
     --header-link-color: #212121;
@@ -39,7 +38,6 @@ ul, ol {
     --footer-background-color: #2F303A;
     --button-background-color: #F5F4FA;
 }
-
 
 body {
     margin: 0;
@@ -154,12 +152,12 @@ img {
 .section-hero {
     background-color: var(--hero-background-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
-    max-width: 696px;   
-    padding-top: 200px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -168,22 +166,25 @@ img {
     color: var(--main-text-color);
 }
 
+.container-hero-title {
+    max-width: 696px;
+    margin: 0 auto;
+}
+
 .hero-button {
-    display: inline-block;
-    margin-bottom: 200px;
     border-radius: 4px; 
     min-width: 200px;
     padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    
     align-items: center;
     letter-spacing: 0.06em;
     color: var(--hero-button-color);
     cursor: pointer;
     background-color: var(--main-button-color);
 }
+
 
 .hero-button:hover,
 .hero-button:focus {
