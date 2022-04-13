@@ -90,8 +90,6 @@ img {
 
 /*-----------------header body-------*/ 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -105,10 +103,15 @@ img {
 }
 
 .header-link-logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
     text-decoration: none;
+    align-items: center;
     margin-right: 93px;
     font-family: 'Raleway';
 }
+
+
 
 .logo-web {
     font-family: "Raleway", sans-serif;
@@ -141,6 +144,8 @@ img {
 }
 
 .header-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.1;
     color: var(--header-link-color);
@@ -151,7 +156,7 @@ img {
     color: var(--link-color);
 }
 
-.header-list .link.current {
+.link.current {
     color: var(--link-color);
 }
 
@@ -161,10 +166,11 @@ img {
     display: flex;
     justify-content: end;
     margin-left: auto;
-
 }
 
 .header-contact-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-right: 50px;
 }
 
@@ -173,6 +179,8 @@ img {
 }
 
 .header-mail {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -185,6 +193,8 @@ img {
 }
 
 .header-tel {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -230,10 +240,6 @@ img {
     background-color: var(--main-button-color);
 }
 
-.hero-button:hover,
-.hero-button:focus {
-    color: var(--hero-button-color-alt);
-}
 
 /*-------------main body advantages line--------*/
 
@@ -361,6 +367,9 @@ img {
 }
 
 .footer-link-logo {
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Raleway';
     display: inline-block;
     margin-bottom: 20px;
 }
