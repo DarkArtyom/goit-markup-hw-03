@@ -37,6 +37,7 @@ ul, ol {
     --hero-background-color: #2F303A;
     --footer-background-color: #2F303A;
     --button-background-color: #F5F4FA;
+    --team-background-color: #F5F4FA;
     --list-right-margin: 30px;
 }
 
@@ -256,11 +257,6 @@ img {
     margin-right: 0;
 }
 
-.section-advantages {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .adv-title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -307,6 +303,10 @@ img {
 
 /* --------------main body team line------*/
 
+.section-team {
+    background-color: var(--team-background-color);
+}
+
 .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -314,7 +314,8 @@ img {
 
 .team-list-item {
     margin-right: var(--list-right-margin);
-    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item:last-child {
@@ -326,11 +327,9 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #ffffff;
-    border-bottom: 1px solid #757575;
-    border-left: 1px solid #757575;
-    border-right: 1px solid #757575;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+        
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .team-title {
@@ -341,7 +340,6 @@ img {
     text-align: center;
     color: var(--title-text-color);
 }
-
 
 .employee-title {
     margin-bottom: 10px;
@@ -380,6 +378,14 @@ img {
     font-size: 26px;
     line-height: 1.1;
     color: var(--logo-studio-alt-color);
+}
+
+.adress-item {
+    margin-bottom: 9px;
+}
+
+.adress-item:last-child {
+    margin: 0;
 }
 
 .footer-map-link {
