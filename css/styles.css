@@ -112,8 +112,6 @@ img {
     font-family: 'Raleway';
 }
 
-
-
 .logo-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -241,7 +239,6 @@ img {
     background-color: var(--main-button-color);
 }
 
-
 /*-------------main body advantages line--------*/
 
 .adv-list {
@@ -258,6 +255,7 @@ img {
 }
 
 .adv-title {
+    font-size: 14px;
     margin-bottom: 10px;
     font-weight: 700;
     line-height: 1.14;
@@ -327,7 +325,6 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #ffffff;
-        
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
@@ -372,20 +369,20 @@ img {
     margin-bottom: 20px;
 }
 
+.adress-item {
+    margin-bottom: 9px;
+}
+
+.adress-item:last-child {
+    margin-bottom: 0;
+}
+
 .logo-studio-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
     color: var(--logo-studio-alt-color);
-}
-
-.adress-item {
-    margin-bottom: 9px;
-}
-
-.adress-item:last-child {
-    margin: 0;
 }
 
 .footer-map-link {
@@ -451,12 +448,24 @@ img {
     background-color: var(--main-button-color);
 }
 
-/*-------------portfolio services------*/
-
-.container-cards {
-    width: 611px;
-    margin: 0 auto;
+.services-button-list {
+    justify-content: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.services-buttom-item {
+    margin-right: 8px;
+    align-items: center;
+    border-color: none;
+}
+
+.services-buttom-item:last-child {
+    margin: 0;
+}
+
+/*-------------portfolio services------*/
 
 .sevices-title {
     margin-bottom: 4px;
@@ -473,23 +482,10 @@ img {
     color: var(--secondary-text-color);
 }
 
-.services-button-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.services-buttom-item {
-    align-items: center;
-    border-color: none;
-    margin-bottom: 50px;
-}
-
 .services-pics-list {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
-    margin-bottom: -30px;
 }
 
 .services-pics-item {
